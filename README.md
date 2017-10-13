@@ -1,4 +1,4 @@
-# DesignPatters
+# DesignPatterns
 This repo is a collection of design pattern in swift language. It uses playground.
 
 1. <a href="https://github.com/Schabaani/DesignPatters/tree/master/singleton/Singleton.playground"> Singleton</a>
