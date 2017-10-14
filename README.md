@@ -1,6 +1,10 @@
 # DesignPatterns
 This repo is a collection of design pattern in swift language. It uses playground.
 
+<b>Creational patterns</b>
+
+Creational patterns are design patterns that deal with how an object is created. There are two basic ideas behind creational patterns. The first is encapsulating the knowledge of which concrete types should be created and the second is hiding how instances of these types are created.
+
 1. <a href="https://github.com/Schabaani/DesignPatterns/tree/master/singleton/Singleton.playground"> Singleton</a>
 
 Singletons are easy to understand. The singleton pattern guarantees that only one instance of a class is instantiated. <a href="https://cocoacasts.com/what-is-a-singleton-and-how-to-create-one-in-swift/"> Bart Jacobs</a> describes singleton design pattern very well.
