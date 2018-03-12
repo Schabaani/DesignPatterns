@@ -1,5 +1,5 @@
 # DesignPatterns
-This repo is a collection of design pattern in swift language. It uses playground.
+This repo is a collection of design pattern in swift or js.
 
 <b>Creational patterns</b>
 
@@ -13,7 +13,7 @@ Singletons are easy to understand. The singleton pattern guarantees that only on
 
 This pattern is particularly useful when the client doesn't know exactly what type to create. As an example, let's say a Showroom exclusively selling cellphones gets a query for the smart phones made by ABC. Here we don't know the exact type of object to be created (assuming all the information for a phone is wrapped in the form of a concrete object). But we do know that we are looking for smart phones that are manufactured by ABC. This information can actually be utilized if our design has Abstract factory implementation. Thanks <a href="https://www.codeproject.com/Articles/328373/Understanding-and-Implementing-Abstract-Factory-Pa">Rahul Rajat Singh</a>
 
-Builder
+3. Builder
 
 The builder pattern is an object creation software design pattern. Unlike the <a href="https://github.com/Schabaani/DesignPatterns/tree/master/abstractFactory/abstractFactroy.playground">abstract factory pattern</a> and the factory method pattern whose intention is to enable polymorphism, the intention of the builder pattern is to find a solution to the telescoping constructor anti-pattern that occurs when the increase of object constructor parameter combination leads to an exponential list of constructors. Instead of using numerous constructors, the builder pattern uses another object, a builder, that receives each initialization parameter step by step and then returns the resulting constructed object at once [<a href="https://en.wikipedia.org/wiki/Builder_pattern">wikipedia</a>].
 
@@ -29,3 +29,9 @@ We can solve the issues with large number of parameters by providing a construct
 Builder pattern solves the issue with large number of optional parameters and inconsistent state by providing a way to build the object step-by-step and provide a method that will actually return the final Object [<a href="https://www.journaldev.com/1425/builder-design-pattern-in-java">journaldev</a>]
 
 Builder focuses on constructing a complex object step by step. Abstract Factory emphasizes a family of product objects (either simple or complex). Builder returns the product as a final step, but as far as the Abstract Factory is concerned, the product gets returned immediately[<a href="https://sourcemaking.com/design_patterns/builder">sourcemaking</a>]
+
+<b>Behavioral patterns</b>
+
+1.<a href="https://github.com/Schabaani/DesignPatterns/blob/master/chain-of-responsibility.js">Chain-of-responsibility</a>
+
+In object-oriented design, the chain-of-responsibility pattern is a design pattern consisting of a source of command objects and a series of processing objects. Each processing object contains logic that defines the types of command objects that it can handle; the rest are passed to the next processing object in the chain. A mechanism also exists for adding new processing objects to the end of this chain. Thus, the chain of responsibility is an object oriented version of the if ... else if ... else if ....... else ... endif idiom, with the benefit that the condition–action blocks can be dynamically rearranged and reconfigured at runtime [<a href="https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern">wikipedia</a>]. In this pattern, normally each receiver contains reference to another receiver. If one object cannot handle the request then it passes the same to the next receiver and so on.
