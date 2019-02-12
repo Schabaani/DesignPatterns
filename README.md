@@ -1,7 +1,7 @@
 
-
+<div dir="rtl">
 ## ری‌اکت را امتحان کنید {#try-react}
- 
+           </div>
 
 # DesignPatterns
 This repo is a collection of design pattern in swift or js.
